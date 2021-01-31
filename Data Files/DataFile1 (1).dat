@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Dane do testów sklepu saucedemo.com</description>
+   <name>DataFile1 (1)</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>COMMA</csvSeperator>
+   <dataFileGUID>15a45fa1-f282-4200-82aa-c0fc61f217d1</dataFileGUID>
+   <dataSourceUrl>C:\Users\dz0919\Katalon Studio\6297_Adam_Maciejewski\Data Files\DataFile1.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

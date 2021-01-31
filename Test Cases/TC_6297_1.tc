@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test dokonania zakupu w sklepie z podaniem prawidłowych danych</description>
+   <name>TC_6297_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a6aec91-f405-4176-b97e-163c25b7c17c</testCaseGuid>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>ab4a16d1-9f30-4e21-9bdb-99bb704d6d59</id>
+      <masked>false</masked>
+      <name>varLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>1ba030ad-5966-48c0-8f78-bc24c56ee209</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jan\r\n'</defaultValue>
+      <description></description>
+      <id>45a38331-7955-4d08-8540-c72e14e47ae3</id>
+      <masked>false</masked>
+      <name>varName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kowalski\r\n'</defaultValue>
+      <description></description>
+      <id>2be7dc4e-6ace-4cc1-8710-33e30716cee2</id>
+      <masked>false</masked>
+      <name>varLastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'58-304'</defaultValue>
+      <description></description>
+      <id>23761fed-fe13-48d1-80b7-44c29cc898c3</id>
+      <masked>false</masked>
+      <name>varPostcode</name>
+   </variable>
+</TestCaseEntity>

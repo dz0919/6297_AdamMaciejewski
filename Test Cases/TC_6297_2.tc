@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sprawdzenie czy mozna dokonac zakupu podając niepoprawne dane kupującego - zamiast imienia i nazwiska ciag cyfr</description>
+   <name>TC_6297_2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8204018-f4e3-4603-a1a4-db12b81bda29</testCaseGuid>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>403e5e26-cc0b-480b-969c-62dd07455be2</id>
+      <masked>false</masked>
+      <name>varLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'qcu24s4901FyWDTwXGr6XA=='</defaultValue>
+      <description></description>
+      <id>1b7d6c1e-58e8-4757-b685-de07c81a2c25</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description></description>
+      <id>4ccb7627-410f-4156-8b1d-b2f80f67a220</id>
+      <masked>false</masked>
+      <name>varName</name>
+   </variable>
+   <variable>
+      <defaultValue>'5678'</defaultValue>
+      <description></description>
+      <id>8fb996d5-15df-40fe-bed4-14a9145cd280</id>
+      <masked>false</masked>
+      <name>varLastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'58-304'</defaultValue>
+      <description></description>
+      <id>ffaf26e6-0fc9-4221-ac02-5db554a315b4</id>
+      <masked>false</masked>
+      <name>varPostcode</name>
+   </variable>
+</TestCaseEntity>

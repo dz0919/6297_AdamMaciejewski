@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6297" time="110.612" tests="2" failures="1" skips="0" errors="0">
+   <testsuite name="TS_6297" tests="2" failures="1" errors="0" time="110.612" skips="0" timestamp="2021-01-31 20:05:38" hostname="dz0919 - 10.0.2.15" id="Test Suites/TS_6297">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526"/>
+         <property name="logFiles" value="C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526\\1612120045996.png, C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526\\1612120046410.png"/>
+         <property name="hostName" value="dz0919 - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Chrome 88.0.4324.104"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="90110b5506e92d0eac806fe0bbd211d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_6297_1" time="23.666" classname="Test Cases/TC_6297_1" status="PASSED">
+         <system-out><![CDATA[2021-01-31 20:05:41 - [TEST_CASE][PASSED] - Test Cases/TC_6297_1: Test Cases/TC_6297_1
+
+2021-01-31 20:05:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-31 20:05:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-31 20:05:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-31 20:05:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-31 20:05:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-01-31 20:05:51 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-01-31 20:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), varLogin): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2021-01-31 20:05:52 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2021-01-31 20:05:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), varPassword): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2021-01-31 20:05:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2021-01-31 20:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2021-01-31 20:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2021-01-31 20:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_ADD TO CART")): Object: 'Object Repository/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_ADD TO CART")): Object: 'Object Repository/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f")): Object: 'Object Repository/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f' is clicked on
+
+2021-01-31 20:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f' is clicked on
+
+2021-01-31 20:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_CHECKOUT")): Object: 'Object Repository/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+2021-01-31 20:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+2021-01-31 20:05:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_first-name"), varName): Text 'Jan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+2021-01-31 20:06:00 - [MESSAGE][PASSED] - Text 'Jan' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+2021-01-31 20:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_last-name"), varLastname): Text 'Nowicki' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+2021-01-31 20:06:01 - [MESSAGE][PASSED] - Text 'Nowicki' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+2021-01-31 20:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Checkout Your Information_postal-code"), varPostcode): Text '58-304' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+2021-01-31 20:06:02 - [MESSAGE][PASSED] - Text '58-304' is set on object 'Object Repository/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+2021-01-31 20:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_CANCEL_btn_primary cart_button")): Object: 'Object Repository/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+2021-01-31 20:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+2021-01-31 20:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/a_FINISH")): Object: 'Object Repository/Page_Swag Labs/a_FINISH' is clicked on
+
+2021-01-31 20:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/a_FINISH' is clicked on
+
+2021-01-31 20:06:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER"), "THANK YOU FOR YOUR ORDER"): Actual text and expected text of test object 'Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' are matched.
+
+2021-01-31 20:06:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' are matched.
+
+2021-01-31 20:06:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-31 20:06:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_6297_2" time="80.871" classname="Test Cases/TC_6297_2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_6297_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+"/>
+         <system-out><![CDATA[2021-01-31 20:06:05 - [TEST_CASE][FAILED] - Test Cases/TC_6297_2: Test Cases/TC_6297_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+2021-01-31 20:06:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-31 20:06:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-31 20:06:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-31 20:06:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-31 20:06:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-01-31 20:06:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2021-01-31 20:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac"), varLogin): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2021-01-31 20:06:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac'
+
+2021-01-31 20:06:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9"), varPassword): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2021-01-31 20:06:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9'
+
+2021-01-31 20:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2021-01-31 20:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71' is clicked on
+
+2021-01-31 20:06:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/button_ADD TO CART")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/button_ADD TO CART' is clicked on
+
+2021-01-31 20:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/path")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/path' is clicked on
+
+2021-01-31 20:06:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-31 20:06:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/Page_Swag Labs/path'. Try using Self-healing.
+
+2021-01-31 20:06:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Swag Labs/Page_Swag Labs/path' was broken. Propose an alternative one: 'path'.
+
+2021-01-31 20:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/path' is clicked on
+
+2021-01-31 20:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/a_CHECKOUT")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+2021-01-31 20:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_CHECKOUT' is clicked on
+
+2021-01-31 20:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_first-name"), varName): Text '1234' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+2021-01-31 20:06:50 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_first-name'
+
+2021-01-31 20:06:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_last-name"), varLastname): Text '5678' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+2021-01-31 20:06:51 - [MESSAGE][PASSED] - Text '5678' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_last-name'
+
+2021-01-31 20:06:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_postal-code"), varPostcode): Text '58-304' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+2021-01-31 20:06:52 - [MESSAGE][PASSED] - Text '58-304' is set on object 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_postal-code'
+
+2021-01-31 20:06:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/input_CANCEL_btn_primary cart_button")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+2021-01-31 20:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/input_CANCEL_btn_primary cart_button' is clicked on
+
+2021-01-31 20:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/a_FINISH")): Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_FINISH' is clicked on
+
+2021-01-31 20:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Page_Swag Labs/a_FINISH' is clicked on
+
+2021-01-31 20:06:54 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER"), 0): Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+2021-01-31 20:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-31 20:07:26 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526\\1612120045996.png]]
+
+2021-01-31 20:07:26 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\dz0919\\Katalon Studio\\6297_Adam_Maciejewski\\Reports\\20210131_200526\\TS_6297\\20210131_200526\\1612120046410.png]]]]></system-out>
+         <system-err><![CDATA[2021-01-31 20:06:05 - [TEST_CASE][FAILED] - Test Cases/TC_6297_2: Test Cases/TC_6297_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-31 20:05:38 - [TEST_SUITE][FAILED] - TS_6297: Test Cases/TC_6297_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[2021-01-31 20:05:38 - [TEST_SUITE][FAILED] - TS_6297: Test Cases/TC_6297_2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1496)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotPresent$6.call(Unknown Source)
+	at TC_6297_2.run(TC_6297_2:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1612119926494.run(TempTestSuite1612119926494.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER' located by 'By.xpath: //div[@id='checkout_complete_container']/h2' is present after '30' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

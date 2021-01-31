@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6297,Chrome 88.0.4324.104,Zestaw testow sprawdzający poprawnośc weryfikacji wprowadzonych danych kupujacego przez sklep saucedemo.com,,2021-01-31 20:05:38,2021-01-31 20:07:26,"1m - 48,309s",FAILED
+,,,,,,,
+Test Cases/TC_6297_1,Chrome 88.0.4324.104,Test dokonania zakupu w sklepie z podaniem prawidłowych danych,,2021-01-31 20:05:41,2021-01-31 20:06:05,"23,666s",PASSED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-31 20:05:43,2021-01-31 20:05:50,"7,418s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 88.0.4324.104,,,2021-01-31 20:05:50,2021-01-31 20:05:51,"0,737s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), varLogin)",Chrome 88.0.4324.104,,,2021-01-31 20:05:51,2021-01-31 20:05:52,"1,283s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), varPassword)",Chrome 88.0.4324.104,,,2021-01-31 20:05:52,2021-01-31 20:05:53,"0,989s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 88.0.4324.104,,,2021-01-31 20:05:53,2021-01-31 20:05:55,"1,812s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_ADD TO CART""))",Chrome 88.0.4324.104,,,2021-01-31 20:05:55,2021-01-31 20:05:56,"0,865s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_ADD TO CART""))",Chrome 88.0.4324.104,,,2021-01-31 20:05:56,2021-01-31 20:05:57,"0,694s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f""))",Chrome 88.0.4324.104,,,2021-01-31 20:05:57,2021-01-31 20:05:58,"0,819s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_CHECKOUT""))",Chrome 88.0.4324.104,,,2021-01-31 20:05:58,2021-01-31 20:05:58,"0,837s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_first-name""), varName)",Chrome 88.0.4324.104,,,2021-01-31 20:05:58,2021-01-31 20:06:00,"1,019s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_last-name""), varLastname)",Chrome 88.0.4324.104,,,2021-01-31 20:06:00,2021-01-31 20:06:01,"1,077s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_postal-code""), varPostcode)",Chrome 88.0.4324.104,,,2021-01-31 20:06:01,2021-01-31 20:06:02,"1,011s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_CANCEL_btn_primary cart_button""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:02,2021-01-31 20:06:02,"0,849s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_FINISH""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:02,2021-01-31 20:06:03,"0,832s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""), ""THANK YOU FOR YOUR ORDER"")",Chrome 88.0.4324.104,,,2021-01-31 20:06:03,2021-01-31 20:06:04,"0,672s",PASSED
+closeBrowser(),Chrome 88.0.4324.104,,,2021-01-31 20:06:04,2021-01-31 20:06:05,"1,059s",PASSED
+,,,,,,,
+Test Cases/TC_6297_2,Chrome 88.0.4324.104,Sprawdzenie czy mozna dokonac zakupu podając niepoprawne dane kupującego - zamiast imienia i nazwiska ciag cyfr,,2021-01-31 20:06:05,2021-01-31 20:07:26,"1m - 20,871s",FAILED
+"openBrowser("""")",Chrome 88.0.4324.104,,,2021-01-31 20:06:07,2021-01-31 20:06:11,"4,282s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 88.0.4324.104,,,2021-01-31 20:06:11,2021-01-31 20:06:12,"1,174s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_db77ac""), varLogin)",Chrome 88.0.4324.104,,,2021-01-31 20:06:12,2021-01-31 20:06:13,"1,104s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_3423e9""), varPassword)",Chrome 88.0.4324.104,,,2021-01-31 20:06:13,2021-01-31 20:06:14,"0,736s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_standard_userlocked_out_userproblem_u_0dff71""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:14,2021-01-31 20:06:15,"1,449s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/button_ADD TO CART""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:15,2021-01-31 20:06:16,"0,690s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/path""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:16,2021-01-31 20:06:48,"32,256s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/a_CHECKOUT""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:48,2021-01-31 20:06:49,"0,874s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_first-name""), varName)",Chrome 88.0.4324.104,,,2021-01-31 20:06:49,2021-01-31 20:06:50,"1,017s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_last-name""), varLastname)",Chrome 88.0.4324.104,,,2021-01-31 20:06:50,2021-01-31 20:06:51,"1,177s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_Checkout Your Information_postal-code""), varPostcode)",Chrome 88.0.4324.104,,,2021-01-31 20:06:51,2021-01-31 20:06:52,"1,020s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/input_CANCEL_btn_primary cart_button""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:52,2021-01-31 20:06:53,"0,893s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/a_FINISH""))",Chrome 88.0.4324.104,,,2021-01-31 20:06:53,2021-01-31 20:06:54,"1,039s",PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Swag Labs/Page_Swag Labs/h2_THANK YOU FOR YOUR ORDER""), 0)",Chrome 88.0.4324.104,,,2021-01-31 20:06:54,2021-01-31 20:07:26,"31,848s",FAILED
